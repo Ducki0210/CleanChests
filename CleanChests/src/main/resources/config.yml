@@ -1,0 +1,22 @@
+CleanChest:
+  prefix: "&8【&6CleanChests&8】&f➤" #[prefix] will be auto replaced by the value of this
+  messages:
+    usage: "[prefix] &cUse /[cmd] <reload/addItem(+item in hand)>" #[cmd] is the command name
+    itemAdded: "[prefix] &2&oItem added to the list"
+    alreadyContains: "[prefix] &cThe list already contains this block"
+    itemHand: "[prefix] &cget an item in your hand"
+    console: "Only specific members can use this command"
+    cleanChests: "[prefix] &2&oAll chests cleaned &8(&7[value]&8)" #[value] is the numbers of chests affected
+    reload: "[prefix] &2&oPlugin succesfully reloaded"
+    sound:
+      reload: 'BLOCK_ANVIL_USE'
+      deny: 'BLOCK_FENCE_GATE_OPEN' #When you fail a command
+      allow: 'ENTITY_PLAYER_LEVELUP' #When you success a command
+
+enderchest: true
+
+#You don't have to change any []
+
+Blocks:
+  - BEDROCK
+  - BARRIER

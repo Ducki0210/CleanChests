@@ -1,0 +1,4 @@
+CleanChests\event\ChunkLoad.class
+CleanChests\event\Completer.class
+CleanChests\main.class
+CleanChests\cmd\CleanChests.class

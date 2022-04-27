@@ -1,0 +1,9 @@
+name: CleanChests
+version: 4.0
+author: BasArts
+main: CleanChests.main
+description: Clean the server from all kind of stuff
+commands:
+  cleanchests:
+    permission: Cleanchests.use
+    description: A command to Clean the server from some chest inventories stuff
