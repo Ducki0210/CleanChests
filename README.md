@@ -1,0 +1,2 @@
+# CleanChests
+The CleanChests plugin
