@@ -17,8 +17,10 @@ public class main extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         getLogger().info("CleanChests >> enabled");
+        
         getCommand("cleanchests").setExecutor(new CleanChests());
         getCommand("cleanchests").setTabCompleter(new Completer());
+        
         Bukkit.getPluginManager().registerEvents(new ChunkLoad(), this);
     }
 
