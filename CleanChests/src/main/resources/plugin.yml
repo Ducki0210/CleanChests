@@ -1,8 +1,11 @@
 name: CleanChests
-version: 4.0
 author: BasArts
-main: CleanChests.main
+
+version: 4.0
 description: Clean the server from all kind of stuff
+
+main: CleanChests.main
+
 commands:
   cleanchests:
     permission: Cleanchests.use
